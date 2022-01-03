@@ -15,3 +15,6 @@ How to do a Github pull request?<br>
 ( In addition to the official "GitHub Help 'Using pull requests' page",
 see also "Forking vs. Branching in GitHub", "What is the difference between origin and upstream in GitHub" )<br>
 https://stackoverflow.com/a/14681796
+
+Difference between git pull & git fetch<br>
+https://stackoverflow.com/a/292359
