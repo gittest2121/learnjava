@@ -10,3 +10,8 @@ https://stackoverflow.com/a/1486212
 
 What does the 'static' keyword do in a class?<br>
 https://stackoverflow.com/a/413904
+
+How to do a Github pull request?<br>
+( In addition to the official "GitHub Help 'Using pull requests' page",
+see also "Forking vs. Branching in GitHub", "What is the difference between origin and upstream in GitHub" )<br>
+https://stackoverflow.com/a/14681796
