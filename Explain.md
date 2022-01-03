@@ -1,5 +1,5 @@
 ## Good Explanations on various topics found on Internet
-What are bitwise operators? What are its practical applications?
+What are bitwise operators? What are its practical applications?<br>
 https://stackoverflow.com/a/276771
 
 What are bitwise shift (bit-shift) operators and how do they work?<br>
