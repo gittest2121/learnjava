@@ -21,3 +21,6 @@ https://stackoverflow.com/a/292359
 
 Difference between "fork" & "clone" in git<br>
 https://stackoverflow.com/a/6286877
+
+What Computer Science concepts should I know?<br>
+https://stackoverflow.com/a/747304
