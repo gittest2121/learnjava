@@ -47,3 +47,6 @@ https://stackoverflow.com/a/17745895
 What is EOF?<br>
 https://stackoverflow.com/a/4358765<br>
 https://stackoverflow.com/a/1622108
+  
+Difference between "merge", "squash and merge" and "rebase and merge" (linked from Github Documentation) in pull requests.<br>
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges
