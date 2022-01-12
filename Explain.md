@@ -27,3 +27,23 @@ https://stackoverflow.com/a/747304
 
 What is the difference between #include <filename> and #include "filename"? (C/C++)<br>
 https://stackoverflow.com/a/21594
+
+What are the valid signatures for C's main() function?<br>
+https://stackoverflow.com/a/2108208
+  
+What is the issue with scanf & its entire family?<br>
+https://stackoverflow.com/a/2430978
+  
+Why doesn't getchar() wait for me to press enter after scanf()?<br>
+https://stackoverflow.com/a/1391555<br>
+https://stackoverflow.com/a/1391880
+  
+What is fflush? And why it is discouraged to use it?<br>
+https://stackoverflow.com/a/2979217
+  
+Beautiful explanation on getchar() & EOF<br>
+https://stackoverflow.com/a/17745895
+  
+What is EOF?<br>
+https://stackoverflow.com/a/4358765<br>
+https://stackoverflow.com/a/1622108
