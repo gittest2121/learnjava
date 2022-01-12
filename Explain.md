@@ -50,3 +50,6 @@ https://stackoverflow.com/a/1622108
   
 Difference between "merge", "squash and merge" and "rebase and merge" (linked from Github Documentation) in pull requests.<br>
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges
+
+Why isn't sizeof for a struct equal to the sum of sizeof of each member? (C/C++)<br>
+https://stackoverflow.com/a/119128
