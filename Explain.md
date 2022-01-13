@@ -69,5 +69,7 @@ https://stackoverflow.com/a/12135533
 
 What is difference between ++i and i++?<br>
 https://stackoverflow.com/a/24858
-  
+
+How to change the license for a project at Github? 
+https://stackoverflow.com/a/20243295
   ###  ProTip! Great commit summaries contain fewer than 50 characters. Place extra information in the extended description. 
