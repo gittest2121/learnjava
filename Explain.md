@@ -53,3 +53,23 @@ https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorp
 
 Why isn't sizeof for a struct equal to the sum of sizeof of each member? (C/C++)<br>
 https://stackoverflow.com/a/119128
+
+What does int argc, char *argv[] mean?<br>
+https://stackoverflow.com/a/3024202
+
+What are the arguments to main() for?<br>
+https://stackoverflow.com/a/3734134
+
+What is the correct (most efficient) way to define the main() function in C and C++ — int main() or void main() — and why? And how about the arguments? If int main() then return 1 or return 0?<br>
+https://stackoverflow.com/a/204483<br>
+https://stackoverflow.com/a/207992
+
+Is < faster than <=?  
+https://stackoverflow.com/a/12135533
+
+What is difference between ++i and i++?<br>
+https://stackoverflow.com/a/24858
+
+How to change the license for a project at Github? 
+https://stackoverflow.com/a/20243295
+  ###  ProTip! Great commit summaries contain fewer than 50 characters. Place extra information in the extended description. 
