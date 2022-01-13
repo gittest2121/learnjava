@@ -53,3 +53,9 @@ https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorp
 
 Why isn't sizeof for a struct equal to the sum of sizeof of each member? (C/C++)<br>
 https://stackoverflow.com/a/119128
+
+What does int argc, char *argv[] mean?<br>
+https://stackoverflow.com/a/3024202
+
+What are the arguments to main() for?<br>
+https://stackoverflow.com/a/3734134
