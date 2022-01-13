@@ -59,3 +59,7 @@ https://stackoverflow.com/a/3024202
 
 What are the arguments to main() for?<br>
 https://stackoverflow.com/a/3734134
+
+What is the correct (most efficient) way to define the main() function in C and C++ — int main() or void main() — and why? And how about the arguments? If int main() then return 1 or return 0?<br>
+https://stackoverflow.com/a/204483<br>
+https://stackoverflow.com/a/207992
