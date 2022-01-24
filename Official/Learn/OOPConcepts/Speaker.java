@@ -1,26 +1,26 @@
-class Speaker {
+class Speaker implements Speaker_Interface {
 	boolean power = false;
 	boolean mute = false;
 	boolean sound = false; // 0 for stereo/poweroff and 1 for mono
 	int volume = 0;
 
-	void power(boolean value) {
+	public void power(boolean value) {
 		power = value;
 	}
 
-	void mute(boolean value) {
+	public void mute(boolean value) {
 		mute = value;
 	}
 
-	void sound(boolean value) {
+	public void sound(boolean value) {
 		sound = value;
 	}
 
-	void volumeUp(int value) {
+	public void volumeUp(int value) {
 		volume += 10*value;
 	}
 
-	void volumeDown(int value) {
+	public void volumeDown(int value) {
 		volume -= 10*value;
 	}
 

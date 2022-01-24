@@ -15,6 +15,20 @@ An interface is a contract between a class and the outside world.<br>
 When a class implements an interface, it promises to provide the behavior published by that interface.<br>
 This section defines a simple interface and explains the necessary changes for any class that implements it.
 
+### If you're a beginner to programming, Read this later!
+***Interfaces solves concrete problems. Say, you have a, b, c, d of 4 different types, as:
+	a.Process();
+	b.Process();
+	c.Process();
+	d.Process();
+
+Instead of doing this, you can implement IProcessable, then do
+	List<IProcessable> list;
+
+	foreach(IProcessable p in list)
+	    p.Process();
+***
+
 ## What is a Package?
 A package is a namespace for organizing classes and interfaces in a logical manner. Placing your code into packages makes large software projects easier to manage<br>
 This section explains why this is useful, and introduces you to the API provided by the Java platform.
