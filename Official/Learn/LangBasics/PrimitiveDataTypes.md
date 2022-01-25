@@ -98,10 +98,11 @@ Hexadecimal: Base 16; whose digits consists of the numbers 0 through 9 and lette
 Binary: Base 2, whose digits consists of the numbers 0 and 1 (in Java SE 7 or later)
 Octal (not representation in Official Docs, since its representation is confusing -- not recommended): Base 8; whose digits contain 0 through 7;
 ```
-
+```
 0x     -- hexadecimal<br>
 0      -- octal<br>
 (None) -- Decimal
+```
 
 ## Floating-Point Literals
 * A floating-point literal is of type *float* if it ends with the letter *F*or *f*; otherwise its type is *double* and it can _optionally_ end with the letter _D_ or _d_
