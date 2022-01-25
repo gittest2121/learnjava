@@ -43,7 +43,7 @@ class ACMEBicycle implements Bicycle {
 	void printStates() {
 		System.out.println("cadence: " + cadence + " speed: " + speed + " gear: " + gear);
 	}
-}
+    }
 
 Implementing an interface allows a class to become more formal about the behavior it promises to provide. Interfaces form a contract between the class and the outside world, and this contract is enforced at build time by the compiler.
 
