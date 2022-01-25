@@ -49,7 +49,7 @@ It's not always necessary to assign the value when a *field* is declared.<br>
 Fields that are declared but not initialized will be set to a reasonable default by the compiler<br>
 Generally speaking, this default will be zero or null depending on the data type<br>
 ***Relying on such default values is generally considered as bad programming style***
-
+```
 Data Type 	-- 	Default value (for fields)
 boolean		--	false
 byte		-- 	0
@@ -61,7 +61,7 @@ double		--	0.0d
 char		--	'\u0000'
 String 		--	null
 (or any object)
-
+```
 
 * Local variables are slightly different; the compiler never assigns a default value to an uninitialized local variable. If you cannot initialize your local variable where it is declared, make sure to assign it a value before you attempt to use it. Accessing an uninitialized local variable will result in a compile-time error.
 
@@ -90,18 +90,17 @@ For example;<br>
 * An integer literal is of type long if it ends with the letter L or l;
 * otherwise it is of type int.
 * *It is recommended to use ****uppercase letter L**** because the lower case l is hard to distinguish from the digit 1 on some systems*
-<br>
 * Values of the integral types *byte, short, int, long* can be created from *int* literals [for long, if range of (*long*) < range of (*int*)]
 * Values of type *long* that exceed the range of *int* can be created from *long* literals
-<br>
 * Integer literals can be expressed by these number systems:<br>
- * Decimal: Base 10; whose digits consists of the numbers 0 through 9; (Default)
- * Hexadecimal: Base 16; whose digits consists of the numbers 0 through 9 and letters A through F
- * Binary: Base 2, whose digits consists of the numbers 0 and 1 (in Java SE 7 or later)
- * Octal (not representation in Official Docs, since its representation is confusing -- not recommended): Base 8; whose digits contain 0 through 7;
+```Decimal: Base 10; whose digits consists of the numbers 0 through 9; (Default)
+Hexadecimal: Base 16; whose digits consists of the numbers 0 through 9 and letters A through F
+Binary: Base 2, whose digits consists of the numbers 0 and 1 (in Java SE 7 or later)
+Octal (not representation in Official Docs, since its representation is confusing -- not recommended): Base 8; whose digits contain 0 through 7;
+```
 
-0x     -- hexadecimal
-0      -- octal
+0x     -- hexadecimal<br>
+0      -- octal<br>
 (None) -- Decimal
 
 ## Floating-Point Literals
@@ -114,14 +113,16 @@ For example;<br>
 * Always use *single quotes for char literals* and *double quotes for String literals*
 * Unicode characters may be used elsewhere in a program (even in field names!)
 * The Java Programming also supports a few special escape sequences for *char* and *String* literals, *namely,
- * \b -- backspace
- * \t -- tab
- * \n -- line feed
- * \f -- form feed
- * \r -- carriage return
- * \" -- double quote
- * \' -- single quote
- * \\ -- backslash*
+```
+\b -- backspace
+\t -- tab
+\n -- line feed
+\f -- form feed
+\r -- carriage return
+\" -- double quote
+\' -- single quote
+\\ -- backslash*
+```
 
 * There's also a special *null* literal that can be used as a value for any reference type.
 * *null* may be assigned to any variable (except for primitive types)
@@ -133,18 +134,20 @@ For example,<br>
 * ***Class literal refers to the object (of type Class) that represents the type itself***<br>
 ***class<String> c = String.class;***<br>
 
-***	String.class is an instance (object) of the class "Class"
+* String.class is an instance (object) of the class "Class"
 A string literal(say, "I am a string.") is a notation which represents an instance (object) of the class "String.class"; whereas
-a class literal (say, "Hastable.class") is a notation which represents an instance (object) of class "Class"**
+a class literal (say, "Hastable.class") is a notation which represents an instance (object) of class "Class"
 
 # Underscore Characters in Numeric Literals (In Java SE 7 and later)
 * This feature enables you, for example, to seperate group of digits in numeric literals, which can improve readability of your code.<br>
-For example,<br>
-	long unknownNumber = 1234_5678_9012_3456L;
-	long socialsecurityNumber = 999_99_9999L;
-	float pi = 3.14_15F;
-	byte nybbles = 0b0010_0101;
-	long hexbytes = 0xFF_EC_DE_5E;
+* For example,
+```
+long unknownNumber = 1234_5678_9012_3456L;
+long socialsecurityNumber = 999_99_9999L;
+float pi = 3.14_15F;
+byte nybbles = 0b0010_0101;
+long hexbytes = 0xFF_EC_DE_5E;
+```
 
 * You can place underscore only between digits; you cannot place underscores in the following places:
  * At the beginning or end of a number
