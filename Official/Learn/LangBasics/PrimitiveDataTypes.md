@@ -72,14 +72,18 @@ This will be an advantage, especially for Strings<br>
 When you use a *string literal*, the string can be *interned (a method of storing only one copy of each distinct string value, which must be immutable)* but when you use *new String("...")*, you get a *string object*<br>
 For example;<br>
 ***Both String Literals refer to same object***
-	String a = "abc";
-	String b = "abc";
-	System.out.println(a == b); // true
+```
+String a = "abc";
+String b = "abc";
+System.out.println(a == b); // true
+```
 
 ***But when you use new String(...); 2 different objects are created and have different references***
-	String c = new String("abc");
-	String d = new String("abc");
-	System.out.println(c == d); // false
+```
+String c = new String("abc");
+String d = new String("abc");
+System.out.println(c == d); // false
+```
 
 ***In general, you should use the string literal notation when possible. It is easier to read and gives the compiler a chance to optimize your code.***
 
