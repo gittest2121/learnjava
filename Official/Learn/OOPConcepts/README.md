@@ -16,17 +16,20 @@ When a class implements an interface, it promises to provide the behavior publis
 This section defines a simple interface and explains the necessary changes for any class that implements it.
 
 ### If you're a beginner to programming, Read this later!
-***Interfaces solves concrete problems. Say, you have a, b, c, d of 4 different types, as:
-	a.Process();
-	b.Process();
-	c.Process();
-	d.Process();
+Interfaces solves concrete problems. Say, you have a, b, c, d of 4 different types, as:<br>
+```
+a.Process();
+b.Process();
+c.Process();
+d.Process();
+```
 
 Instead of doing this, you can implement IProcessable, then do
-	List<IProcessable> list;
-
-	foreach(IProcessable p in list)
+```	
+List<IProcessable> list;
+    foreach(IProcessable p in list)
 	    p.Process();
+```
 ***
 
 ## What is a Package?
