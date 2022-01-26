@@ -37,7 +37,7 @@ An *if-then-else* statement can test expressions based on *ranges of values of c
 ```
 * The *default* section handles all values that are not explictly handled by one of the *case* sections
 
-# Why is branching statement "break" used here?
+## Why is branching statement "break" used here?
 * Each *break* statement terminates the enclosing *switch* statement.
 * The *break* statements are necessary because without them, statements in *switch* blocks *fall through: All statements after the matching case label are executed in sequence, regardless of the expression of subsequent case labels*, until a *break* statement is encountered.
 * Using a *break* statement is recommended so that modifying the code is *easier and less error prone*.
