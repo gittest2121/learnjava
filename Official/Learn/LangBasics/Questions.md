@@ -5,3 +5,4 @@
 5. 8 data types - ***byte, short, int, long, float, double, boolean, char***.
 6. Character strings are represented by the class ***java.lang.String***.
 7. An ***array*** is a container object that holds a fixed number of values of a single type.
+8. The ***logical complement operator "!"*** is used to invert the value of boolean.
