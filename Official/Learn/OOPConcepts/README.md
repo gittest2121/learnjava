@@ -4,7 +4,7 @@ An object is a software bundle of related state and behaviour<br>
 _Explains:_ how state and behavior are represented within an object, introduces the concept of data encapsulation, and explains the benefits of designing your software in this manner
 
 ## What is a Class?
-A class is a blueprint or prototype from which objects are created.
+A class is a blueprint or prototype from which objects are created.<br>
 _Explains:_ defines a class that models the state and behavior of a real-world object. It intentionally focuses on basics, showing how even a simple class can cleanly model state and behavior.
 
 ## What is Inheritance?
