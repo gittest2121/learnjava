@@ -229,3 +229,19 @@ public static int getNumberOfBicycles() {
 Also, class methods cannot use the "this" keyword as there is no instance for "this" to refer to.*
 ```
 
+* Constants
+* The static *modifier*, in combination with the *final* modifier, is also used to define constants.*
+* ***The final modifier indicates that the value of this field cannot change.***
+```
+static final double PI = 3.141592653589793;
+```
+* Constants defined in this way cannot be reassigned, and it is a compile-time error if your program tries to do so.
+* By convention, the names of constant values are spelled in **UPPERCASE LETTERS**.
+* If the name is composed of more than one word, the words are seperated by an underscore(_).
+```
+Note:
+If a primitive type or a string is defined as a constant and the value is known at compile time, the compiler replaces the constant name everywhere in the code with its value.
+This value is called a *compile-time constant.*
+```
+
+*Credits:* https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html
