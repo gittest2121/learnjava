@@ -229,7 +229,7 @@ public static int getNumberOfBicycles() {
 Also, class methods cannot use the "this" keyword as there is no instance for "this" to refer to.*
 ```
 
-* Constants
+## Constants
 * The static *modifier*, in combination with the *final* modifier, is also used to define constants.*
 * ***The final modifier indicates that the value of this field cannot change.***
 ```
