@@ -287,9 +287,12 @@ class Whatever {
 }
 ```
 * The advantage of *private static methods* is that they *can be reused later if you need to reinitialize the class variable*
+
+```
 -------------------------------------------------------------------------
 [ Some Explanation in StaticInitalize.md ]
 -------------------------------------------------------------------------
+```
 
 ## Initializing Instance Members (Ain't that setting values for object's fields?)
 * Normally you would put code to initialize an instance variable in a constructor. There are two alternatives to using a constructor to initialize instance variables: *initializer blocks & final methods*
