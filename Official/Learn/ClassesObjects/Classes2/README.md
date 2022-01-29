@@ -124,7 +124,7 @@ The two-argument constructor calls the four argument constructor, passing in the
 * *If present, the invocation of another constructor must be the first line in the constructor.*
 
 ## Controlling Access to Members of a Class
-*[ See AccessModifiers.md ]
+*[ See AccessModifiers.md ]*
 
 ## Understanding Class Members
 * In this section, we discuss the use of the *static* keyword to create fields and methods that belong to the class, rather than to an instance of the class.
