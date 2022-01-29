@@ -244,4 +244,74 @@ If a primitive type or a string is defined as a constant and the value is known 
 This value is called a *compile-time constant.*
 ```
 
+## Initializing Fields
+* It is not necessary to declare fields at the beginning of the class definition, although this is the most common practice. It is only necessary that *they be declared and initialized before they are used.*
+
+* Generally, you often provide an initial value for a field in its declaration.
+```
+public class BedAndBreakfast {
+
+    // initialize to 10
+    public static int capacity = 10;
+
+    // initialize to false
+    private boolean full = false;
+}
+
+This works well when the initialization value is available and the initialization can be put on one line.
+However, this form of initialization has limitations because of its simplicity.
+* If initialization requires some logic (say, error handling or a "for" loop to fill a complex array), simple assignment is inadequate.
+```
+* To provide the same capability for class variables (static fields), the Java programming language includes *static initialization blocks.*
+
+---------------------------------------------------------------------------
+## Static Initialization Blocks
+* A *static initialization block* is a normal block of code enclosed in braces, { }, and preceded by the *static* keyword.
+```
+static {
+    // whatever code is needed for initialization goes here
+}
+```
+* A class can have *any number of static initialization blocks, and they can appear anywhere in the class body.
+* The runtime system guarantees that *static initialization blocks* are called in the order they appear in the source code.
+* There is an alternative to static blocks - you can write a private static method:
+```
+class Whatever {
+    public static varType myVar = initializeClassVariable();
+
+    public static varType initializeClassVariable() {
+
+        // initialization code goes here
+        // this is for class
+    }
+}
+```
+* The advantage of *private static methods* is that they *can be reused later if you need to reinitialize the class variable*
+-------------------------------------------------------------------------
+[ Some Explanation in StaticInitalize.md ]
+-------------------------------------------------------------------------
+
+## Initializing Instance Members (Ain't that setting values for object's fields?)
+* Normally you would put code to initialize an instance variable in a constructor. There are two alternatives to using a constructor to initialize instance variables: *initializer blocks & final methods*
+* Initializer blocks for instance variables look just like static initializer blockers, but without static keywords
+```
+{
+    // whatever code is needed for initialization goes here
+}
+```
+* The Java compiler copies initializer blocks into every constructor. Therefore, this approach can be used to share a block of code between multiple constructors.
+* A *final method cannot be overridden in a subclass.*
+```
+class Whatever {
+    private varType myVar = intializeInstanceVariable();
+
+    protected final varType initializeInstanceVariable() {
+         // initialization code goes here
+         // this is for instance
+    }
+}
+```
+* This is especially useful if subclasses might want to reuse the initialization method.
+* The method is final because *calling non-final methods during instance initialization can cause problems.*
+
 *Credits:* https://docs.oracle.com/javase/tutorial/java/javaOO/classvars.html
