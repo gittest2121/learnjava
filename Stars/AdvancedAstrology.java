@@ -15,8 +15,8 @@ class AdvancedAstrology {
 
     static void printTriangle(int size) {
         for (int i = size; i >= 0; --i) {
-            printStars(size-i);
             printSpaces(i-1);
+            printStars(size-i+1);
         }
     }
 
