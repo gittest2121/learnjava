@@ -1,0 +1,8 @@
+BoxA,BoxB,5,7
+BoxA,BoxB,1,3
+BoxA,BoxC,4,5
+BoxA,BoxB,7,2
+BoxC,BoxB,1,3
+BoxB,BoxC,1,3
+BoxA,BoxD,1,3
+BoxD,BoxC,5,7

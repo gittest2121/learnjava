@@ -1,0 +1,9 @@
+Hello
+How
+third line
+Its 4 lines
+Why?
+fifth line
+INSERT MODE;
+END
+eighth line
